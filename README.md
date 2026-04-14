@@ -2,6 +2,8 @@
 
 This project provides a full-stack web application for visualizing whole-slide images (WSI), running cell segmentation/classification inferences (via HoVer-Net), and visualizing the results through density heatmaps and vector overlays. The current setup supports representative dataset slides from both CAMELYON and TCGA-BRCA.
 
+![Backend Overview](public/backend_overview.png)
+
 ## Getting Started: Step-by-Step Guide
 
 Follow these instructions carefully to get the project up and running. The codebase relies on an external repository (HoVer-Net) and its downloaded model weights to perform WSI inference correctly.
